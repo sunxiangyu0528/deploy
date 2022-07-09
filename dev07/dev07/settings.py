@@ -104,11 +104,11 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         # 指定数据库名称，如果使用的是sqlite3，需要指定sqlite3文件的绝对路径
         # 'NAME': BASE_DIR / 'db.sqlite3',
-        'NAME': 'mydb',
+        'NAME': 'study_happy',
         'USER': 'root',
         'PASSWORD': '123456',
         'PORT': 3306,
-        'HOST': '127.0.0.1'
+        'HOST': '124.71.73.194'
     }
 
 }

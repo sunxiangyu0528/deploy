@@ -57,7 +57,7 @@ class ProjectViewSet(NamesMixin, RunMixin, viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def list(self, request, *args, **kwargs):
-        print(10/0)
+
         response = super().list(request, *args, **kwargs)
         # result_list = []
         for item in response.data['results']:
